@@ -1,0 +1,60 @@
+h1{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-size:50px;
+	font-style:normal;
+	font-weight:400;
+	color:#193446;
+	padding:0px;
+	margin:0px;
+}
+h2{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-weight:400;
+	color:white;
+	font-size:30px;
+}
+h3{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align:center;
+	font-size:15px;
+	margin-bottom:15px;
+	margin-top:0px;
+	color:white;
+}
+ul{
+	font-family: "ambroise", serif;
+font-style: normal;
+font-weight: 400;
+	text-align:left;
+	list-style:none;
+	line-height:1em;
+	color:white;
+
+}
+li{
+
+}
+span{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+a{
+	font-family: "ambroise", serif;
+font-style: normal;
+font-weight: 400;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+
+div{
+	width:50%;
+	padding:10px;}
+img{
+	width:30px;
+}

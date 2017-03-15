@@ -1,0 +1,42 @@
+
+h1{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-size:50px;
+	font-weight:400;
+	color:#193446;
+}
+a{
+	font-family: "Ambroise", serif;
+	
+	vertical-align:bottom;
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+     -webkit-filter: brightness(110%) 
+     
+}
+.col-:hover {
+	-webkit-filter: brightness(110%) 
+}
+span{
+	font-family: "Ambroise", serif;
+	font-weight:400;
+	padding-right:5px;
+	text-align:right;
+	vertical-align:right;
+}
+p{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align:right;
+	
+	color:#193446;
+}
+
+img{
+	width:30px;
+	padding:0px;
+}

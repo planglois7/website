@@ -1,0 +1,47 @@
+h1{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-size:50px;
+	font-weight:400;
+	color:#193446;
+}
+p{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align:center;
+	padding:8px;
+	color:#193446;
+	line-height:1.2em;
+}
+h2{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	
+	font-weight:400;
+	color:#193446;
+}
+h3{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align:center;
+	font-size:15px;
+	text-align:left;
+	color:#193446;
+	padding-left:120px;padding-right:120px;
+}
+img{
+	width:30px;
+}
+a{
+	font-family: "Ambroise", serif;
+	font-weight:400;
+	color:white;
+
+}
+span{
+	font-family: "Ambroise", serif;
+	font-weight:400;
+	color:#193446;
+}

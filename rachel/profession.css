@@ -1,0 +1,63 @@
+h1{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-size:50px;
+	font-style:normal;
+	font-weight:400;
+	color:#193446;
+}
+h2{
+	font-family: "Ambroise", serif;
+	text-align:center;
+	font-size:30px;
+	font-style:normal;
+	font-weight:400;
+	color:white;
+	padding-top:15px;
+}
+h3{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:15px;
+	padding:10px;
+	color:white;
+	text-align:left;
+}
+div{
+	width:50%;
+	
+}
+ol{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:18px;
+	color:white;
+	margin-right:10px;
+	text-align:left;
+	line-height:1.5em;
+
+}
+ul{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:15px;
+	color:white;
+	margin-right:10px;
+	text-align:center;
+	line-height:1.5em;
+	
+	list-style:none;
+
+}
+img{
+	width:30px;
+}
+span{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:15px;
+}
