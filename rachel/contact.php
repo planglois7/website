@@ -18,3 +18,5 @@ $email_body = "new message from $name.\n" "email: $visitor_email\n" "message: \n
 
 $to = "perilanglois7@gmail.com";
 $headers = "from: $email_from \r\n"; 
+
+mail($to,$email_subject,$email_body,$headers);
