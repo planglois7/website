@@ -1,8 +1,18 @@
-<form>
- <p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc1mbimR6kym9dLfSq0qHfyJFsmEaDnaQFwpCTan4n4wKXLvA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+ <p>Name</p> <input type="text" name="entry.1725990227" id="entry.1725990227">
+<p>Email</p> <input type="text" name="entry.1609838657" id="entry.1609838657">
+<p>Message</p><textarea name="entry.1949565742" id="entry.1949565742" rows="6" cols="25"></textarea><br />
 <input type="submit" value="Send"><input type="reset" value="Clear">
 
 
 </form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
