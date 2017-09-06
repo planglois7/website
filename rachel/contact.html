@@ -1,6 +1,6 @@
 <?php
 $action=$_REQUEST['action'];
-if ($action=="")    /* display the contact form */
+if ($action=="")    
     {
     ?>
     <form  action="" method="POST" enctype="multipart/form-data">
@@ -15,14 +15,14 @@ if ($action=="")    /* display the contact form */
     </form>
     <?php
     } 
-else                /* send the submitted data */
+else                
     {
     $name=$_REQUEST['name'];
     $email=$_REQUEST['email'];
     $message=$_REQUEST['message'];
     if (($name=="")||($email=="")||($message==""))
         {
-		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+		echo "All fields are required, please fill again.";
 	    }
     else{		
 	    $from="From: $name<$email>\r\nReturn-path: $email";
